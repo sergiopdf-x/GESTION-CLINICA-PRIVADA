@@ -23,7 +23,7 @@ public class Medico extends Empleado{
     @Override
     public String mostrarInformacion(){
         return super.mostrarInformacion() + "\nCargo: MEDICO" + "\nEspecialidad: "
-                + especialidad + "\nPacientes: " + pacientes + "\nValor consulta: "
+                + especialidad + "\nPacientes: " + getPacientes() + "\nValor consulta: "
                 +valorConsulta + "\nPago: $" + calcularPago();
     }
 }

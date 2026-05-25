@@ -10,7 +10,7 @@ public class Main {
         int opcion=0;
         do{
             try{
-                System.out.println("\n===== CLINICA SALUD TOTAL =====");
+                System.out.println("\n------------- CLINICA SALUD TOTAL ------------");
                 System.out.println("1. Registrar medico");
                 System.out.println("2. Registrar administrativo");
                 System.out.println("3. Mostrar empleados");
